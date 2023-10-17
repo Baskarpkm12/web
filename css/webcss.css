@@ -1,0 +1,566 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+.top {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    bottom: 30px;
+    right: 10px;
+}
+
+.container1 {
+    background: rgba(0, 0, 0, 0.3) url(/web/images/okk.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.content1 {
+    width: 90%;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.content1 div {
+    padding: 10px;
+}
+
+.content1 a:hover {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: max-content;
+}
+
+.link {
+    display: none;
+}
+
+.container2 {
+    height: 450px;
+    background: rgba(0, 0, 0, 0.3) url(/web/images/okk.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.content2 {
+    text-align: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.content2 h1 {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 70px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.content2 strong {
+    color: yellow;
+}
+
+.buttons {
+    width: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    padding-bottom: 50px;
+}
+
+.buttons .learnmore {
+    border: 2px solid white;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buttons .download {
+    border: 2px solid white;
+    padding: 10px 15px;
+    background-color: rgba(235, 235, 19, 0.9);
+}
+
+.foot {
+    background: rgba(0, 0, 0, 0.3) url(/web/images/okk.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.content3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content3 h2 {
+    margin-bottom: 50px;
+}
+
+.percentage {
+    width: 40px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.arrow {
+    font-size: 40px;
+    color: blue;
+    position: absolute;
+    margin-top: 5px;
+    z-index: -1;
+}
+
+.graph .percentage {
+    margin-left: 54%;
+}
+
+.graph .arrow {
+    margin-left: 55%;
+}
+
+.design .percentage {
+    margin-left: 76%;
+}
+
+.design .arrow {
+    margin-left: 77%;
+}
+
+.development .percentage {
+    margin-left: 80%;
+}
+
+.development .arrow {
+    margin-left: 81%;
+}
+
+progress {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.bar {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}
+
+.graph {
+    color: tomato;
+    position: relative;
+}
+
+.design {
+    color: yellow;
+    position: relative;
+}
+
+.development {
+    color: rgb(172, 15, 245);
+    position: relative;
+}
+
+.container4 {
+    text-align: center;
+    background: rgba(190, 188, 188, 0.2);
+    padding-top: 30px;
+}
+
+.container4 .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.images img {
+    max-width: 100%;
+}
+
+.container5 {
+    background-image: url(/web/images/purple.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content5 {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.content5 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content5 div {
+    background-color: rgb(107, 0, 128);
+    padding: 15px 10px;
+}
+
+.container6 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.tomato h3 {
+    color: tomato;
+}
+
+.yellow h3 {
+    color: yellow;
+}
+
+.purple h3 {
+    color: rgb(107, 0, 128);
+}
+
+.container7 {
+    background-color: rgb(22, 3, 39);
+}
+
+.content7 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.content7 button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: rgb(192, 192, 9);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.set {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    column-gap: 20px;
+}
+
+.set img {
+    height: 200px;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    text-align: start;
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.box .body {
+    padding: 0 30px;
+}
+
+.body div {
+    margin: 20px 0;
+}
+
+.body a {
+    color: orange;
+}
+
+.container8 {
+    background: rgb(236, 176, 11) url(/web/images/mount.jpeg);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content8 {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content8 h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.projects,
+.clients {
+    border-right: 2px solid white;
+}
+
+.container9 {
+    background-color: rgb(241, 241, 243);
+}
+
+.content9,
+.container10 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: start;
+    margin-top: 50px;
+}
+
+.team h3 {
+    margin-top: 5px;
+}
+
+.member {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.member img {
+    width: 100px;
+}
+
+.member .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: start;
+}
+
+.qs {
+    color: orange;
+}
+
+.ans {
+    border-left: 1px solid;
+    padding-left: 20px;
+}
+
+.detail img {
+    width: 100px;
+}
+
+form p {
+    text-align: start;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+form input {
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid rgb(87, 84, 84);
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid rgb(87, 84, 84);
+}
+
+.submit {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: end;
+}
+
+.submit input {
+    text-align: center;
+    width: 80px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container11 {
+    background-color: rgb(39, 37, 37);
+}
+
+.content11 {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    color: white;
+    text-align: start;
+    padding: 30px 0;
+}
+
+.container11 li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+@media (max-width:576px) {
+    .tabs {
+        display: none;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .link {
+        display: block;
+        text-align: center;
+    }
+    .link div {
+        width: 100%;
+    }
+    .menubar {
+        display: none;
+    }
+    .menu:hover .menubar {
+        display: block;
+        position: absolute;
+        background-color: rgba(44, 43, 43, 0.9);
+        text-align: center;
+        width: 150px;
+        right: 10px;
+    }
+    .link a:hover {
+        background-color: orange;
+        color: white;
+    }
+    .content1 {
+        grid-template-columns: 50% 50%;
+    }
+    .container1 {
+        background-position: top;
+    }
+    .buttons {
+        display: block;
+        width: 100%;
+    }
+    .buttons div {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .foot {
+        background-position: bottom;
+        height: 50px;
+    }
+    .content2 h1 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .container2 {
+        height: 400px;
+    }
+    .bar {
+        display: block;
+    }
+    .services {
+        display: block;
+    }
+    .content8 {
+        font-size: 10px;
+    }
+    .set {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .box {
+        width: 100%;
+    }
+    .team {
+        display: block;
+        text-align: center;
+    }
+    .member {
+        display: block;
+    }
+    .detail {
+        display: block;
+    }
+    .two {
+        margin-top: 30px;
+    }
+    .three {
+        display: block;
+    }
+    .content11 {
+        display: block;
+    }
+}
