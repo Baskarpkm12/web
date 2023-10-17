@@ -10,7 +10,6 @@
     background-color: black;
     color: white;
     padding-left: 15px;
-    padding-top: 5px;
     border-radius: 50%;
     position: fixed;
     z-index: 5;
@@ -140,6 +139,7 @@ a {
     text-align: center;
     padding-top: 5px;
     margin-top: 10px;
+    border-radius: 3px;
 }
 
 .arrow {
@@ -530,6 +530,15 @@ textarea {
     }
     .bar {
         display: block;
+    }
+    .graph .arrow {
+        margin-left: 56%;
+    }
+    .design .arrow {
+        margin-left: 78%;
+    }
+    .development .arrow {
+        margin-left: 82%;
     }
     .services {
         display: block;
